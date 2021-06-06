@@ -4,7 +4,7 @@ en esta practica desplegaremos un blog en github pages utilizando la herramienta
 ```
 docker run -it --rm -v "$PWD:/srv/jekyll" jekyll/jekyll jekyll new blog
 ```
-ahora con el siguiente comando construiremos la estructura de carpetas que tendra el sitio 
+ahora con el siguiente comando construiremos la estructura html que tendra el sitio 
 ```
 docker run -it --rm -v "$PWD:/srv/jekyll" jekyll/jekyll jekyll build
 ```
